@@ -128,77 +128,7 @@ summary{
         flex-shrink: 0;
     }
 }
-// .header {
-//     background-color: $colorHeaderFooter;
-//     padding-top: 18px;
-//     padding-bottom: 20px;
-//     position: relative;
-//     &__left {
-//         @include flexSBcenter(41px);
-//     }
-//     &__right {
-//         @include flexSBcenter(33px);
 
-
-//         &__nav{
-//             background: #FFF;
-//             box-shadow:6px 4px 35px ;
-            
-//             width: 232px;
-//             padding: 32px;
-//             box-sizing: border-box;
-//             position: absolute;
-//             top: 79px;
-//             right: 0;
-//             transition: right .3s;
-//         }
-//         &__menu{
-//             list-style-type:none;
-//             color: #000;
-//             font-family:$fontFamilySite;
-//             font-size: 14px;
-//             font-style: normal;
-//             font-weight: 700;
-//             line-height: normal;
-//             margin-bottom: 24px;
-
-//         }
-//         &__li{
-//             list-style-type:none;
-//             color: #F16D7F;
-//             font-family: $fontFamilySite;
-//             font-size: 14px;
-//             font-style: normal;
-//             font-weight: 400;
-//             line-height: normal;
-//             margin-bottom: 12px;
-            
-            
-
-//         }
-//         &__limenu{
-//             list-style-type:none;
-//             color: #6F6E6E;
-//             font-family: $fontFamilySite;
-//             font-size: 14px;
-//             font-style: normal;
-//             font-weight: 400;
-//             line-height: normal;
-//             padding-left: 21px;
-//             margin-top: 11px;
-            
-//         }
-//     }
-//     &__flex {
-//         display: flex;
-//         justify-content: space-between;
-//     }
-//     &__icon {
-//         width: 44px;
-//         height: 38px;
-//         flex-shrink: 0;
-//     }
-// }
 
 .icon:hover path {
     fill: $colorHover;
