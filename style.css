@@ -67,7 +67,7 @@ summary {
   position: absolute;
   top: 79px;
   right: -232px;
-  transition: right 0.3s;
+  transition: 2s;
 }
 .header__right__menu {
   list-style-type: none;
@@ -213,6 +213,11 @@ summary {
   padding: 17px 41px 16px 39px;
   border: 1px solid #A4A4A4;
 }
+.cart-content__btn:hover {
+  color: white;
+  background-color: #F16D7F;
+  transition: 2s;
+}
 .cart-content__formAdress {
   display: flex;
   flex-direction: column;
@@ -252,6 +257,11 @@ summary {
   line-height: normal;
   padding: 10px 14px 12px 15px;
   width: 102px;
+}
+.cart-content__formAdressButton:hover {
+  color: white;
+  background-color: #F16D7F;
+  transition: 2s;
 }
 .cart-content__formTotal {
   padding: 39px 34px 42px 44px;
@@ -302,6 +312,11 @@ summary {
   border: rgba(0, 0, 0, 0);
   margin-top: 17px;
   margin-right: 9px;
+}
+.cart-content__formTotalBtn:hover {
+  color: #F16D7F;
+  background-color: white;
+  transition: 2s;
 }
 
 .review {
@@ -402,7 +417,9 @@ summary {
   height: 49px;
 }
 .review__subscribe__button:hover {
-  color: blue;
+  color: #F16D7F;
+  background-color: white;
+  transition: 2s;
 }
 
 .footer {

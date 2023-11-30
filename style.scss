@@ -3,6 +3,7 @@ $colorHover:blue;
 $colorHeaderFooter: #222224;
 $widthSite:1140px;
 $colorText:#000;
+$transitionSite:2s;
 
 $fontFamilySite:Lato;
 $widthBurgerMenu:232px;
@@ -79,7 +80,7 @@ summary{
             position: absolute;
             top: 79px;
             right:-$widthBurgerMenu;
-            transition: right .3s;
+            transition: $transitionSite;
         }
         &__menu{
             list-style-type:none;
@@ -242,6 +243,11 @@ summary{
         line-height: normal;
         padding: 17px 41px 16px 39px;
         border: 1px solid #A4A4A4;
+        &:hover{
+            color:white ;
+            background-color: $colorSite;
+            transition: $transitionSite;
+        }
     }
     &__form{
     
@@ -291,6 +297,11 @@ summary{
         line-height: normal;
         padding: 10px 14px 12px 15px;
         width: 102px;
+        &:hover{
+            color:white ;
+            background-color: $colorSite;
+            transition: $transitionSite;
+        }
     }
 
     &__formTotal{
@@ -350,6 +361,11 @@ summary{
         border: rgba(0,0,0,0);
         margin-top: 17px;
         margin-right: 9px;
+        &:hover{
+            color: $colorSite;
+            background-color: white;
+            transition: $transitionSite;
+        }
     }
 
 
@@ -457,10 +473,13 @@ summary{
             border-bottom-right-radius: 22px;
             border: 1px solid $colorSite;
             height: 49px;
+            &:hover{
+                color: $colorSite;
+                background-color: white;
+                transition: $transitionSite;
+            }
         }
-        &__button:hover {
-            color: $colorHover;
-        }
+       
     }
 }
 
@@ -493,5 +512,6 @@ summary{
     }
     &__icon:hover path {
         fill: $colorSite;
+        
     }
 }
